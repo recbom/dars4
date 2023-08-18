@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
+body{
+    background: #dc143c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0 8px 25px rgb(0, 0, 0 0.5);
+}
+
+.container *{
+    border: none;
+    outline: none;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+    display: ;
+}
